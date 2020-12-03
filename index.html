@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"  crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+   </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+  <header>Harshith</header>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><button class="btn btn-infos" id="close"><i class="fa fa-times"></i></button></a></a>
+
+  <ul class="list-unstyled components mb-5">
+
+    <li class="active">
+      <a href="index.html" class="index.html"><span class="fa fa-home"></span>Home</a>
+    </li>
+    <li>
+      <a href="profile.html" class="a"><span class="fa fa-user"></span>My Profile</a>
+    </li>
+    <li>
+      <a href="col_sub.html" class="a"><span class="fa fa-user"></span>COLLEGE-ERP</a>
+    </li>
+    <li>
+      <a href="vyap_sub.html" class="a"><span class="fa fa-user"></span>VYAPAR</a>
+    </li>
+    <li>
+      <a href="lib_sub.html" class="a"><span class="fa fa-user"></span>EASY LIBRARY</a>
+    </li>
+    <li>
+      <a href="rent_sub.html" class="a"><span class="fa fa-user"></span>RENT SYSTEM</a>
+    </li>
+    <li>
+      <a href="pol_sub.html" class="a"><span class="fa fa-user"></span>POLLING SITE</a>
+    </li>
+    <li>
+      <a href="appoint_sub.html" class="a"><span class="fa fa-user"></span>USER-DOC</a>
+    </li>
+    </ul>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" id="navbar" style="background-color:#22242A;height:60px;">
+  <a class="navbar-brand" href="#"><h3 id="text1">HARSHITH <span>KUMAR</span></h3></a>
+
+  <button type="button" id="sidebarCollapse" class="btn btn-darks" onclick="openNav()">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+
+    </button>
+</nav>
+<div>
+</div>
+<div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 22rem;">
+  <img src="img/p_1.png" class="card-img-top" alt="college">
+  <div class="card-body">
+    <h5 class="card-title">COLLEGE-ERP</h5>
+    <p class="card-text">Type:Website</p>
+    <a href="col_sub.html" class="btn btn-primary">Know more</a>
+  </div>
+</div>
+
+            </div>
+            <div class="col-sm-6">
+              <div class="card" style="width: 22rem;">
+  <img src="img/p_2.png" class="card-img-top" alt="vyapar">
+  <div class="card-body">
+    <h5 class="card-title">VYAPAR</h5>
+    <p class="card-text">Type:Website</p>
+    <a href="vyap_sub.html" class="btn btn-primary">Know more</a>
+  </div>
+</div>
+            </div>
+          </div><br><br>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 22rem;">
+  <img src="img/lib_home.png" class="card-img-top" alt="college">
+  <div class="card-body">
+    <h5 class="card-title">EASY LIBRARY</h5>
+    <p class="card-text">Type:Website</p>
+    <a href="lib_sub.html" class="btn btn-primary">Know more</a>
+  </div>
+</div>
+
+            </div>
+            <div class="col-sm-6">
+              <div class="card" style="width: 22rem;">
+  <img src="img/r.png" class="card-img-top" alt="college">
+  <div class="card-body">
+    <h5 class="card-title">RENT SYSTEM</h5>
+    <p class="card-text">Type:Website</p>
+    <a href="rent_sub.html" class="btn btn-primary">Know more</a>
+  </div>
+</div>
+            </div>
+          </div><br><br>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 22rem;">
+  <img src="img/pol.png" class="card-img-top" alt="polling">
+  <div class="card-body">
+    <h5 class="card-title">POLLING SITE</h5>
+    <p class="card-text">Type:Website</p>
+    <a href="pol_sub.html" class="btn btn-primary">Know more</a>
+  </div>
+</div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card" style="width: 22rem;">
+  <img src="img/1.png" class="card-img-top" alt="college">
+  <div class="card-body">
+    <h5 class="card-title">USER-DOC</h5>
+    <p class="card-text">Type:Website</p>
+    <a href="appoint_sub.html" class="btn btn-primary">Know more</a>
+  </div>
+</div>
+          </div>
+              </div>
+            </div>
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "260px";
+                document.getElementById("main").style.marginLeft = "260px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+              }
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                document.body.style.backgroundColor = "white";
+              }
+</script>
+                </body>
+</html>
